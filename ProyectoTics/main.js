@@ -62,7 +62,7 @@
             showPass = 1;
         }
         else {
-            $(this).next('input').attr('type','password');
+            $(this).next('input').attr('type','contraseña');
             $(this).find('i').removeClass('fa-eye-slash');
             $(this).find('i').addClass('fa-eye');
             showPass = 0;
